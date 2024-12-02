@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "ab3afd049bd3bbc1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1dda884e305665c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07c836e99aa50dcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CIF Automation Cycle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CIF Automation Cycle"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "649648451a8b827c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c218ae18e0e7da42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6b34afaf7fdfa81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e1a8971baac8114a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6661e0612c94bec2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0eb0ab1e659aab34",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee061eb4b061bbd0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9d45b93e2a814b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CIF Automation Cycle.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CIF Automation Cycle"
+            }
+          },
+          {
+            "id": "1d2727640a90f07d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CIF Automation Cycle.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CIF Automation Cycle"
+            }
+          },
+          {
+            "id": "eb264520a22c31d0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0a2cba95fa3c193b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CIF Automation Cycle.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CIF Automation Cycle"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "07c836e99aa50dcc",
+  "lastOpenFiles": [
+    "ReD.md",
+    "README.md",
+    "CIF Automation Cycle.md"
+  ]
+}

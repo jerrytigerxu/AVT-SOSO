@@ -16,7 +16,7 @@
 
 ## TDD (11/25 - 12/31)
 - CIF automation
-- BCC email fix - figure out why BCC emails cause grpahical issues in Salesforce activities (so we don't have to also use Zoho)
+- BCC email fix - figure out why BCC emails cause graphical issues in Salesforce activities (so we don't have to also use Zoho)
 - Zoom/email integration - automatically log Zoom meetings as activities in Salesforce (through custom APIs or integrations)
 
 ## Streamlining (PAC)

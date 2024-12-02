@@ -1,4 +1,4 @@
-Q&R
+**Q&R**
 What are the top 2-3 things that makes your sales process most difficult or time-consuming?
 
 Potential customers take too long to get back to me | so many emails
