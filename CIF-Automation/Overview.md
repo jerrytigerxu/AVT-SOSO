@@ -46,7 +46,7 @@ Only four steps for implementation:
         
 - What does a sample of the completed CIF look like?
     
-    - _See attachment_
+    - Fields: date, PO#, payment term, quotation #, bill to address, ship to address, shipping carrier and account number (FedEx/UPS/DHL), PO confirmation recipient email address(es), shipping notice reicipient email address(es), invoice recipient email address(es), inspection reports, notes 
         
 - Is there a standardized template?
     
