@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Information Form</title>
+</head>
+<body>
+  <h1>Customer Information Form</h1>
+  <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4R0000006IMN" method="POST">
+
+    <input type="hidden" name="oid" value="00D4R0000006IMN">
+    <input type="hidden" name="retURL" value="https://avantierinc.com/">
+
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="po">PO#:</label><br>
+    <input type="number" id="po" name="po" required><br><br>
+
+    <label for="payment_term">Payment Term:</label><br>
+    <input type="text" id="payment_term" name="payment_term" required><br><br>
+
+    <label for="quotation">Quotation #:</label><br>
+    <input type="number" id="quotation" name="quotation" required><br><br>
+
+    <label for="bill_to_address">Bill to Address:</label><br>
+    <textarea id="bill_to_address" name="bill_to_address" rows="4" required></textarea><br><br>
+
+    <label for="ship_to_address">Ship to Address:</label><br>
+    <textarea id="ship_to_address" name="ship_to_address" rows="4" required></textarea><br><br>
+
+    <label for="shipping_carrier">Shipping Carrier:</label><br>
+    <select id="shipping_carrier" name="shipping_carrier" required>
+      <option value="">Select Carrier</option>
+      <option value="FedEx">FedEx</option>
+      <option value="UPS">UPS</option>
+      <option value="DHL">DHL</option>
+    </select><br><br>
+
+    <label for="shipping_account_number">Shipping Account Number:</label><br>
+    <input type="text" id="shipping_account_number" name="shipping_account_number" required><br><br>
+
+    <label for="po_confirmation_email">PO Confirmation Recipient Email(s):</label><br>
+    <input type="email" id="po_confirmation_email" name="po_confirmation_email" multiple required><br><br>
+
+    <label for="shipping_notice_email">Shipping Notice Recipient Email(s):</label><br>
+    <input type="email" id="shipping_notice_email" name="shipping_notice_email" multiple required><br><br>
+
+    <label for="invoice_recipient_email">Invoice Recipient Email(s):</label><br>
+    <input type="email" id="invoice_recipient_email" name="invoice_recipient_email" multiple required><br><br>
+
+    <label for="inspection_reports">Inspection Reports:</label><br>
+    <textarea id="inspection_reports" name="inspection_reports" rows="4" required></textarea><br><br>
+
+    <label for="notes">Notes:</label><br>
+    <textarea id="notes" name="notes" rows="4"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</body>
+</html>
