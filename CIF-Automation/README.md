@@ -2,7 +2,7 @@
 
 ## Phases
 - ~~Convince the sales support team to shift to using an online form and leverage SF Web-to-Lead to save a lot of time and energy (for both parties)~~
-- **Test Phase**
+- [**Test Phase**](https://github.com/jerrytigerxu/AVT-SOSO/blob/main/CIF-Automation/Test-Phase.md)
   - Designing the Web-to-lead form (content and style)
   - Building and testing the Salesforce flow (triggered when a new Lead record is created through the Web-to-Lead form)
   - Generate HTML and test the form and Flow to make sure everything works as expected
