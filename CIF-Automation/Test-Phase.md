@@ -7,3 +7,4 @@
 ## Generate HTML and test the form and Flow to make sure everything works as expected (12/6)
 
 ## Embedding of form into the website (hidden link) and refinement (data validation, default values, and optimization) (12/6)
+- Add reCAPTCHA verification functionality (to avoid spam)
