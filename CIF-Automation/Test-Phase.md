@@ -1,6 +1,5 @@
 
-## Designing the Web-to-lead form (content and style) (12/3)
-- 
+## ~~Designing the Web-to-lead form (content and style) (12/3)~~
 
 ## Building and testing the Salesforce flow (triggered when a new Lead record is created through the Web-to-Lead form) (12/4-5)
 
@@ -8,3 +7,4 @@
 
 ## Embedding of form into the website (hidden link) and refinement (data validation, default values, and optimization) (12/6)
 - Add reCAPTCHA verification functionality (to avoid spam)
+- Make the form look much nicer
