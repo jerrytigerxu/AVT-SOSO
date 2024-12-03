@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +9,34 @@
   <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4R0000006IMN" method="POST">
 
     <input type="hidden" name="oid" value="00D4R0000006IMN">
-    <input type="hidden" name="retURL" value="https://avantierinc.com/">
+    <input type="hidden" name="retURL" value="https://avantierinc.com/"> 
+
+    <label for="first_name">First Name</label><br>
+    <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br><br>
+
+    <label for="last_name">Last Name</label><br>
+    <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br><br>
+
+    <label for="email">Email</label><br>
+    <input  id="email" maxlength="80" name="email" size="20" type="text" /><br><br>   
+
+
+    <label for="company">Company</label><br>
+    <input  id="company" maxlength="40" name="company" size="20" type="text" /><br><br>
+
+    <label for="city">City</label><br>   
+
+    <input  id="city" maxlength="40" name="city" size="20" type="text" /><br><br>
+
+    <label for="state">State/Province</label><br>
+    <input  id="state" maxlength="20" name="state" size="20" type="text" /><br><br>
+
+    <label   
+ for="00NJw000002xxir">Notes</label><br>
+    <textarea  id="00NJw000002xxir" name="00NJw000002xxir" type="text" wrap="soft"></textarea><br><br>
+
+    <label for="00NJw000002uCIH">Email 2</label><br>
+    <input  id="00NJw000002uCIH" maxlength="80" name="00NJw000002uCIH" size="20" type="text" /><br><br>
 
     <label for="date">Date:</label><br>
     <input type="date" id="date" name="date" required><br><br>
@@ -51,10 +79,7 @@
     <label for="inspection_reports">Inspection Reports:</label><br>
     <textarea id="inspection_reports" name="inspection_reports" rows="4" required></textarea><br><br>
 
-    <label for="notes">Notes:</label><br>
-    <textarea id="notes" name="notes" rows="4"></textarea><br><br>
-
-    <input type="submit" value="Submit">
+    <input type="submit" name="submit" value="Submit">
 
   </form>
 </body>
