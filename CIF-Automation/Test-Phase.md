@@ -1,9 +1,7 @@
 
 ## ~~Designing the Web-to-lead form (content and style) (12/3)~~
 
-## Building and testing the Salesforce flow (triggered when a new Prospect record is created through the Web-to-Lead form) (12/6, 9)
-
-## Generate HTML and test the form and Flow to make sure everything works as expected (12/9)
+## Building and testing the Salesforce flow (triggered when a new Prospect record is created through the Web-to-Lead HTML form) (12/6, 9)
 
 ## Embedding of form into the website (hidden link) and refinement (data validation, default values, and optimization) (12/10)
 - Add reCAPTCHA verification functionality (to avoid spam)
