@@ -1,173 +1,84 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
-  <title>Customer Information Form</title>
-
+  <title>Customer Information Form</title>
 </head>
-
 <body>
+  <h1>Customer Information Form</h1>
+  <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4R0000006IMN" method="POST">
 
-  <h1>Customer Information Form</h1>
+    <input type="hidden" name="oid" value="00D4R0000006IMN">
+    <input type="hidden" name="retURL" value="https://avantierinc.com/"> 
 
-  <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4R0000006IMN" method="POST">
+    <input type="hidden" name="CIF_Submission__c" value="Yes">
 
+    <label for="first_name">First Name</label><br>
+    <input id="first_name" maxlength="40" name="FirstName" size="20" type="text" /><br><br>
 
+    <label for="last_name">Last Name</label><br>
+    <input id="last_name" maxlength="80" name="LastName" size="20" type="text" /><br><br>
 
-    <input type="hidden" name="oid" value="00D4R0000006IMN">
+    <label for="email">Email</label><br>
+    <input id="email" maxlength="80" name="Email" size="20" type="text" /><br><br>    
 
-    <input type="hidden" name="retURL" value="https://avantierinc.com/"> 
+    <label for="company">Company</label><br>
+    <input id="company" maxlength="40" name="Company" size="20" type="text" /><br><br>
 
-    
+    <label for="city">City</label><br>  
+    <input id="city" maxlength="40" name="City" size="20" type="text" /><br><br>
 
-    <input type="hidden" name="CIF_Submission__c" value="Yes">
+    <label for="state">State/Province</label><br>
+    <input id="state" maxlength="20" name="State" size="20" type="text" /><br><br>
 
-    
+    <label for="00NJw000002xxir">Notes</label><br>
+    <textarea id="00NJw000002xxir" name="Notes__c" type="text" wrap="soft"></textarea><br><br>
 
-    <label for="first_name">First Name</label><br>
+    <label for="00NJw000002uCIH">Email 2</label><br>
+    <input id="00NJw000002uCIH" maxlength="80" name="Email_2__c" size="20" type="text" /><br><br>
 
-    <input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br><br>
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
 
-
-
-    <label for="last_name">Last Name</label><br>
-
-    <input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br><br>
-
-
-
-    <label for="email">Email</label><br>
-
-    <input  id="email" maxlength="80" name="email" size="20" type="text" /><br><br>   
-
-
-
-
-
-    <label for="company">Company</label><br>
-
-    <input  id="company" maxlength="40" name="company" size="20" type="text" /><br><br>
-
-
-
-    <label for="city">City</label><br>   
-
-
-
-    <input  id="city" maxlength="40" name="city" size="20" type="text" /><br><br>
-
-
-
-    <label for="state">State/Province</label><br>
-
-    <input  id="state" maxlength="20" name="state" size="20" type="text" /><br><br>
-
-
-
-    <label   
-
- for="00NJw000002xxir">Notes</label><br>
-
-    <textarea  id="00NJw000002xxir" name="00NJw000002xxir" type="text" wrap="soft"></textarea><br><br>
-
-
-
-    <label for="00NJw000002uCIH">Email 2</label><br>
-
-    <input  id="00NJw000002uCIH" maxlength="80" name="00NJw000002uCIH" size="20" type="text" /><br><br>
-
-
-
-    <label for="date">Date:</label><br>
-
-    <input type="date" id="date" name="date" required><br><br>
-
-
-
-    <label for="po">PO Number:</label><br>
+    <label for="po">PO Number:</label><br>
     <input type="number" id="po" name="PO_Number__c" required><br><br>
 
+    <label for="payment_term">Payment Term:</label><br>
+    <input type="text" id="payment_term" name="payment_term" required><br><br>
 
-
-
-
-    <label for="payment_term">Payment Term:</label><br>
-
-    <input type="text" id="payment_term" name="payment_term" required><br><br>
-
-
-
-   <label for="quotation">Quote Number:</label><br>
+    <label for="quotation">Quote Number:</label><br>
     <input type="number" id="quotation" name="Quote_Number__c" required><br><br>
 
+    <label for="bill_to_address">Bill to Address:</label><br>
+    <textarea id="bill_to_address" name="bill_to_address" rows="4" required></textarea><br><br>
 
+    <label for="ship_to_address">Ship to Address:</label><br>
+    <textarea id="ship_to_address" name="ship_to_address" rows="4" required></textarea><br><br>
 
-    <label for="bill_to_address">Bill to Address:</label><br>
+    <label for="shipping_carrier">Shipping Carrier:</label><br>
+    <select id="shipping_carrier" name="shipping_carrier" required>
+      <option value="">Select Carrier</option>
+      <option value="FedEx">FedEx</option>
+      <option value="UPS">UPS</option>
+      <option value="DHL">DHL</option>
+    </select><br><br>
 
-    <textarea id="bill_to_address" name="bill_to_address" rows="4" required></textarea><br><br>
+    <label for="shipping_account_number">Shipping Account Number:</label><br>
+    <input type="text" id="shipping_account_number" name="shipping_account_number" required><br><br>
 
+    <label for="po_confirmation_email">PO Confirmation Recipient Email(s):</label><br>
+    <input type="email" id="po_confirmation_email" name="po_confirmation_email" multiple required><br><br>
 
+    <label for="shipping_notice_email">Shipping Notice Recipient Email(s):</label><br>
+    <input type="email" id="shipping_notice_email" name="shipping_notice_email" multiple required><br><br>
 
-    <label for="ship_to_address">Ship to Address:</label><br>
+    <label for="invoice_recipient_email">Invoice Recipient Email(s):</label><br>
+    <input type="email" id="invoice_recipient_email" name="invoice_recipient_email" multiple required><br><br>
 
-    <textarea id="ship_to_address" name="ship_to_address" rows="4" required></textarea><br><br>
+    <label for="inspection_reports">Inspection Reports:</label><br>
+    <textarea id="inspection_reports" name="inspection_reports" rows="4" required></textarea><br><br>
 
+    <input type="submit" name="submit" value="Submit">
 
-
-    <label for="shipping_carrier">Shipping Carrier:</label><br>
-
-    <select id="shipping_carrier" name="shipping_carrier" required>
-
-      <option value="">Select Carrier</option>
-
-      <option value="FedEx">FedEx</option>
-
-      <option value="UPS">UPS</option>
-
-      <option value="DHL">DHL</option>
-
-    </select><br><br>
-
-
-
-    <label for="shipping_account_number">Shipping Account Number:</label><br>
-
-    <input type="text" id="shipping_account_number" name="shipping_account_number" required><br><br>
-
-
-
-    <label for="po_confirmation_email">PO Confirmation Recipient Email(s):</label><br>
-
-    <input type="email" id="po_confirmation_email" name="po_confirmation_email" multiple required><br><br>
-
-
-
-    <label for="shipping_notice_email">Shipping Notice Recipient Email(s):</label><br>
-
-    <input type="email" id="shipping_notice_email" name="shipping_notice_email" multiple required><br><br>
-
-
-
-    <label for="invoice_recipient_email">Invoice Recipient Email(s):</label><br>
-
-    <input type="email" id="invoice_recipient_email" name="invoice_recipient_email" multiple required><br><br>
-
-
-
-    <label for="inspection_reports">Inspection Reports:</label><br>
-
-    <textarea id="inspection_reports" name="inspection_reports" rows="4" required></textarea><br><br>
-
-
-
-    <input type="submit" name="submit" value="Submit">
-
-
-
-  </form>
-
+  </form>
 </body>
-
 </html>
