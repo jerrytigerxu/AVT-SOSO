@@ -40,22 +40,22 @@
     <input type="date" id="date" name="date" required><br><br>
 
     <label for="po">PO Number:</label><br>
-    <input type="number" id="po" name="PO_Number__c" required><br><br>
+    <input type="number" id="po" name="Purchase_order__c" required><br><br>
 
     <label for="payment_term">Payment Term:</label><br>
-    <input type="text" id="payment_term" name="payment_term" required><br><br>
+    <input type="text" id="payment_term" name="Payment_Terms__c" required><br><br>
 
     <label for="quotation">Quote Number:</label><br>
     <input type="number" id="quotation" name="Quote_Number__c" required><br><br>
 
     <label for="bill_to_address">Bill to Address:</label><br>
-    <textarea id="bill_to_address" name="bill_to_address" rows="4" required></textarea><br><br>
+    <textarea id="bill_to_address" name="Billing_Address__c" rows="4" required></textarea><br><br>
 
     <label for="ship_to_address">Ship to Address:</label><br>
-    <textarea id="ship_to_address" name="ship_to_address" rows="4" required></textarea><br><br>
+    <textarea id="ship_to_address" name="Shipping_Address__c" rows="4" required></textarea><br><br>
 
     <label for="shipping_carrier">Shipping Carrier:</label><br>
-    <select id="shipping_carrier" name="shipping_carrier" required>
+    <select id="shipping_carrier" name="Shipping_Carrier__c" required>
       <option value="">Select Carrier</option>
       <option value="FedEx">FedEx</option>
       <option value="UPS">UPS</option>
@@ -63,19 +63,19 @@
     </select><br><br>
 
     <label for="shipping_account_number">Shipping Account Number:</label><br>
-    <input type="text" id="shipping_account_number" name="shipping_account_number" required><br><br>
+    <input type="text" id="shipping_account_number" name="Shipping_Carrier_Account_Number__c" required><br><br>
 
     <label for="po_confirmation_email">PO Confirmation Recipient Email(s):</label><br>
-    <input type="email" id="po_confirmation_email" name="po_confirmation_email" multiple required><br><br>
+    <input type="email" id="po_confirmation_email" name="PO_Confirmation_Email_Address__c" multiple required><br><br>
 
     <label for="shipping_notice_email">Shipping Notice Recipient Email(s):</label><br>
-    <input type="email" id="shipping_notice_email" name="shipping_notice_email" multiple required><br><br>
+    <input type="email" id="shipping_notice_email" name="Shipping_Email_Address__c" multiple required><br><br>
 
     <label for="invoice_recipient_email">Invoice Recipient Email(s):</label><br>
-    <input type="email" id="invoice_recipient_email" name="invoice_recipient_email" multiple required><br><br>
+    <input type="email" id="invoice_recipient_email" name="Invoice_Email__c" multiple required><br><br>
 
     <label for="inspection_reports">Inspection Reports:</label><br>
-    <textarea id="inspection_reports" name="inspection_reports" rows="4" required></textarea><br><br>
+    <input type="checkbox" id="inspection_reports" name="Inspection_Report__c" required><br><br>
 
     <input type="submit" name="submit" value="Submit">
 
