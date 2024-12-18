@@ -9,7 +9,7 @@
 - ~~**Proof-of-concept phase (to give a demo to MM and Mimi | talk about whether or not we need to directly automate the conversion to Prospect or leave the SOS team to handle that)** (12/10)~~
   - ~~Clarification: we aren't trying to create new Opportunities, but rather we are simply updating existing Opportunities (specifically with the "Sales Fulfillment" information) after automatically generating the prospects from the CIF form and then manually converting them (pass the eye test) to existing Opportunities => to do this, you'll need to add all of the sales fulfillment information into the Prospect object so the fields can be mapped and transferred into the Opportunity objects~~ 
 - **Production Phase** (12/10-12/24)
-  - Make adjustments based on clarification
+  - ~~Make adjustments based on clarification~~
   - Embedding of form into the website (hidden link) and refinement (data validation, default values, and optimization)
 - **PAC Phase** (12/25-30)
   - Ensure the form is accessible and optimized for various devices
