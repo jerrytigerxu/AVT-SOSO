@@ -11,7 +11,8 @@
 - **Production Phase** (12/10-12/24)
   - ~~Make adjustments based on clarification~~
   - Demonstrate to Morgan and Mimi what the raw version of this looks like 
-  - Embedding of form into the website (hidden link) and refinement (data validation, default values, and optimization)
+  - Embedding of form into the website (hidden link)
+  - Form refinement (data validation, default values, required fields, and optimization)
 - **PAC Phase** (12/25-30)
   - Ensure the form is accessible and optimized for various devices
   - Consider incorporating features like conditional logic, progress bars, and a "save and continue later" option
