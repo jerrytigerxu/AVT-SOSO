@@ -1,5 +1,5 @@
 ## Overview
-- The purpose of this project is to reduce manual labor and to cut down potential errors in CRUD operations for Salesforce - instead of manually copying the information from the CIF form into Salesforce, we can use Salesforce's Web-to-lead functionality to directly create Salesforce Opportunities. 
+- The purpose of this project is to reduce manual labor and to cut down potential errors in CRUD operations for Salesforce - instead of manually copying the information from the CIF form into Salesforce, we can use Salesforce's Web-to-lead functionality to directly create Salesforce Prospects which can then be converted to update Opportunities
 
 ## Phases (12/3 - 12/30)
 - ~~Convince the sales support team to shift to using an online form and leverage SF Web-to-Lead to save a lot of time and energy (for both parties)~~
