@@ -10,8 +10,10 @@
   - ~~Clarification: we aren't trying to create new Opportunities, but rather we are simply updating existing Opportunities (specifically with the "Sales Fulfillment" information) after automatically generating the prospects from the CIF form and then manually converting them (pass the eye test) to existing Opportunities => to do this, you'll need to add all of the sales fulfillment information into the Prospect object so the fields can be mapped and transferred into the Opportunity objects~~ 
 - **Production Phase** (12/10-12/20)
   - ~~Make adjustments based on clarification~~
-  - Demonstrate to Morgan and Mimi what the raw version of this looks like (12/19)
-  - Embedding of form into the website (hidden link) (12/19)
+  - ~~Demonstrate to Morgan and Mimi what the raw version of this looks like (12/19)~~
+    - ~~Recorded simple demo for Morgan and Mimi~~
+  - ~~Embedding of form into the website (hidden link) (12/19)~~
+    - ~~Created private page on AVT site called "CIF Automation Test" with the embedded HTML Form~~
   - Form refinement (data validation, default values, required fields, and optimization) (12/20)
 - **PAC Phase** (12/23-30)
   - Ensure the form is accessible and optimized for various devices
