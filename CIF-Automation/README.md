@@ -14,8 +14,8 @@
     - ~~Recorded simple demo for Morgan and Mimi~~
   - ~~Embedding of form into the website (hidden link) (12/19)~~
     - ~~Created private page on AVT site called "CIF Automation Test" with the embedded HTML Form~~
-  - Form refinement (data validation, default values, required fields, and optimization) (12/20)
 - **PAC Phase** (12/23-30)
+  - Form refinement (data validation, default values, required fields, and optimization)
   - Ensure the form is accessible and optimized for various devices
   - Consider incorporating features like conditional logic, progress bars, and a "save and continue later" option
   - Research ways to save the form results as PDFs (so they can be filed away in OneDrive) (maybe after filling them out they get automatically saved somewhere)
