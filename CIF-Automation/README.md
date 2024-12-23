@@ -2,6 +2,7 @@
 - The purpose of this project is to reduce manual labor and to cut down potential errors in CRUD operations for Salesforce - instead of manually copying the information from the CIF form into Salesforce, we can use Salesforce's Web-to-lead functionality to directly create Salesforce Prospects which can then be converted to update Opportunities
 
 ## Resume Content
+- **Revolutionized customer data capture by leading the transition from a manual, PDF-based process to a fully automated web-to-lead system in Salesforce. This eliminated manual effort for sales representatives, cutting information update time by over 80% and reducing errors by over 70%, allowing increased focus on sales activities and customer relationships.**
 - Spearheaded the development and implementation of a streamlined Customer Information Form (CIF) within Salesforce to automate data capture and optimize sales workflows.
 - Migrated from manual data entry to an automated web-to-lead process, eliminating redundancies and reducing potential for errors.
 - Designed and implemented a user-friendly web form integrated with Salesforce, capturing essential customer and purchase order information.
