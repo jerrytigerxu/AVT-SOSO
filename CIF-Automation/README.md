@@ -15,9 +15,10 @@
   - ~~Embedding of form into the website (hidden link) (12/19)~~
     - ~~Created private page on AVT site called "CIF Automation Test" with the embedded HTML Form~~
 - **PAC Phase** (12/23-30)
-  - Form refinement (data validation, default values, required fields, and styling)
+  - ~~Form refinement (data validation, default values, required fields, and styling)~~
   - Have an email automatically be sent to CS that also has an attachment of the form results
-  - 
+  - Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)
+
     
 
     
