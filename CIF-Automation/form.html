@@ -17,6 +17,12 @@
       return true; // Allow form submission
     }
   </script>
+  <style>
+    /* Style for the asterisk */
+    .required-asterisk {
+      color: red; 
+    }
+  </style>
 </head>
 <body>
   <h1>Customer Information Form</h1>
@@ -26,22 +32,22 @@
     <input type="hidden" name="retURL" value="https://avantierinc.com/">
     <input type="hidden" name="CIF_Submission__c" value="Yes">
 
-    <label for="first_name">First Name</label><br>
+    <label for="first_name">First Name <span class="required-asterisk">*</span></label><br>
     <input id="first_name" maxlength="40" name="first_name" type="text" required><br><br>
 
-    <label for="last_name">Last Name</label><br>
+    <label for="last_name">Last Name <span class="required-asterisk">*</span></label><br>
     <input id="last_name" maxlength="80" name="last_name" type="text" required><br><br>
 
-    <label for="email">Email</label><br>
+    <label for="email">Email <span class="required-asterisk">*</span></label><br>
     <input id="email" maxlength="80" name="email" type="email" required><br><br>
 
-    <label for="company">Company</label><br>
+    <label for="company">Company <span class="required-asterisk">*</span></label><br>
     <input id="company" maxlength="40" name="company" type="text" required><br><br>
 
-    <label for="city">City</label><br>
+    <label for="city">City <span class="required-asterisk">*</span></label><br>
     <input id="city" maxlength="40" name="city" type="text" required><br><br>
 
-    <label for="state">State/Province</label><br>
+    <label for="state">State/Province <span class="required-asterisk">*</span></label><br>
     <input id="state" maxlength="20" name="state" type="text" required><br><br>
 
     <label for="00NJw000002xxir">Notes</label><br>
@@ -50,25 +56,25 @@
     <label for="00NJw000002uCIH">Email 2</label><br>
     <input id="00NJw000002uCIH" maxlength="80" name="00NJw000002uCIH" type="email"><br><br>
 
-    <label for="date">Date:</label><br>
+    <label for="date">Date: <span class="required-asterisk">*</span></label><br>
     <input type="date" id="date" name="date" required><br><br>
 
-    <label for="po">PO Number:</label><br>
+    <label for="po">PO Number: <span class="required-asterisk">*</span></label><br>
     <input type="number" id="po" name="Purchase_order__c" required><br><br>
 
-    <label for="payment_term">Payment Term:</label><br>
+    <label for="payment_term">Payment Term: <span class="required-asterisk">*</span></label><br>
     <input type="text" id="payment_term" name="Payment_Terms__c" required><br><br>
 
-    <label for="quotation">Quote Number:</label><br>
+    <label for="quotation">Quote Number: <span class="required-asterisk">*</span></label><br>
     <input type="number" id="quotation" name="Quote_Number__c" required><br><br>
 
-    <label for="bill_to_address">Bill to Address:</label><br>
+    <label for="bill_to_address">Bill to Address: <span class="required-asterisk">*</span></label><br>
     <textarea id="bill_to_address" name="Billing_Address__c" rows="4" required></textarea><br><br>
 
-    <label for="ship_to_address">Ship to Address:</label><br>
+    <label for="ship_to_address">Ship to Address: <span class="required-asterisk">*</span></label><br>
     <textarea id="ship_to_address" name="Shipping_Address__c" rows="4" required></textarea><br><br>
 
-    <label for="shipping_carrier">Shipping Carrier:</label><br>
+    <label for="shipping_carrier">Shipping Carrier: <span class="required-asterisk">*</span></label><br>
     <select id="shipping_carrier" name="Shipping_Carrier__c" required>
       <option value="">Select Carrier</option>
       <option value="FedEx">FedEx</option>
@@ -76,16 +82,16 @@
       <option value="DHL">DHL</option>
     </select><br><br>
 
-    <label for="shipping_account_number">Shipping Account Number:</label><br>
+    <label for="shipping_account_number">Shipping Account Number: <span class="required-asterisk">*</span></label><br>
     <input type="text" id="shipping_account_number" name="Shipping_Carrier_Account_Number__c" required><br><br>
 
-    <label for="po_confirmation_email">PO Confirmation Recipient Email(s):</label><br>
+    <label for="po_confirmation_email">PO Confirmation Recipient Email(s): <span class="required-asterisk">*</span></label><br>
     <input type="email" id="po_confirmation_email" name="PO_Confirmation_Email_Address__c" multiple required><br><br>
 
-    <label for="shipping_notice_email">Shipping Notice Recipient Email(s):</label><br>
+    <label for="shipping_notice_email">Shipping Notice Recipient Email(s): <span class="required-asterisk">*</span></label><br>
     <input type="email" id="shipping_notice_email" name="Shipping_Email_Address__c" multiple required><br><br>
 
-    <label for="invoice_recipient_email">Invoice Recipient Email(s):</label><br>
+    <label for="invoice_recipient_email">Invoice Recipient Email(s): <span class="required-asterisk">*</span></label><br>
     <input type="email" id="invoice_recipient_email" name="Invoice_Email__c" multiple required><br><br>
 
     <label for="inspection_reports">Inspection Reports:</label><br>
