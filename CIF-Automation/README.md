@@ -16,7 +16,7 @@
     - ~~Created private page on AVT site called "CIF Automation Test" with the embedded HTML Form~~
 - **PAC Phase** (12/23-30)
   - Form refinement (data validation, default values, required fields, and styling)
-  - Have an email automacially be sent to CS that also has an attachment of the form results
+  - Have an email automatically be sent to CS that also has an attachment of the form results
   - 
     
 
