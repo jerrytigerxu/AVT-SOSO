@@ -2,29 +2,6 @@
 <html>
 <head>
   <title>Customer Information Form</title>
-  <script>
-    function validateForm() {
-      var email1 = document.getElementById("email").value;
-      var email2 = document.getElementById("00NJw000002uCIH").value; 
-      var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
-
-      if (!emailPattern.test(email1) || (email2 && !emailPattern.test(email2))) {
-        alert("Please enter valid email addresses.");
-        return false; 
-      }
-
-      // Check for required fields
-      var requiredFields = document.querySelectorAll("[required]"); 
-      for (var i = 0; i < requiredFields.length; i++) {
-        if (requiredFields[i].value === "") {
-          alert("This field is required: " + requiredFields[i].previousElementSibling.textContent); // Get label text
-          return false; // Prevent form submission
-        }
-      }
-
-      return true; // Allow form submission if all validations pass
-    }
-  </script>
   <style>
     .required-asterisk {
       color: red; 
@@ -33,7 +10,7 @@
 </head>
 <body>
   <h1>Customer Information Form</h1>
-  <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4R0000006IMN" method="POST" onsubmit="return validateForm()">
+  <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00D4R0000006IMN" method="POST">
 
     <input type="hidden" name="oid" value="00D4R0000006IMN">
     <input type="hidden" name="retURL" value="https://avantierinc.com/">
