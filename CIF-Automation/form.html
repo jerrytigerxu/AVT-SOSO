@@ -15,7 +15,6 @@
     <input type="hidden" name="oid" value="00D4R0000006IMN">
     <input type="hidden" name="retURL" value="https://avantierinc.com/">
     <input type="hidden" name="CIF_Submission__c" value="Yes">
-    <input type="hidden" name="Submission_Source__c" value="Web-to-Lead">
 
     <label for="first_name">First Name <span class="required-asterisk">*</span></label><br>
     <input id="first_name" maxlength="40" name="first_name" type="text" required><br><br>
@@ -81,6 +80,9 @@
 
     <label for="inspection_reports">Inspection Reports:</label><br>
     <input type="checkbox" id="inspection_reports" name="Inspection_Report__c" value="1"><br><br>
+
+    <label for="submission_source">Submission Source:</label><br>
+    <input type="text" id="submission_source" name="Submission_Source__c" value="Web-to-Lead" readonly><br><br>
 
     <input type="submit" name="submit" value="Submit">
   </form>
