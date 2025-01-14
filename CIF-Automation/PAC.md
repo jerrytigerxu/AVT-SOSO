@@ -4,10 +4,15 @@
 
 
 ### Finalization
-- ~~(completed) Get approval of Johnny~~
-- Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)
-- Embed the HTML into the AVT website and make it look nice
-- Plan out Streamlining (handing off and making training materials)
+- ~~(completed) A. Get approval of Johnny~~
+- B. Plan out Streamlining (handing off and making training materials) (1/15)
   - Considerations: have the original PDF workflow ready if that's what customers want to do (but don't promote it - always have the automated form be the default option)
-- Further refine the email template if necessary
-- Change the recipient email address to CS
+- C. More tweaking (1/16-17)
+  - Let the marketing team and sales support team know that Johnny is okay with us moving forward
+  - Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)
+  - Embed the HTML into the AVT website and make it look nice
+  - Further refine the email template if necessary
+- D. Deployment (1/20-24)
+  - Change the recipient email address to CS
+  - Do actual test runs
+  - Facilitate making this procedure the "new way"
