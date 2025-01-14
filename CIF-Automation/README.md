@@ -9,7 +9,7 @@
 - Ensured data integrity by implementing web-based form validation for required fields.
 - Collaborated with sales and sales support teams to gather requirements, conduct user acceptance testing, and ensure successful adoption of the new system.
 
-## Phases (12/3 - 1/10)
+## Phases (12/3 - 1/31)
 - ~~Convince the sales support team to shift to using an online form and leverage SF Web-to-Lead to save a lot of time and energy (for both parties)~~
 - ~~[**Test Phase**](https://github.com/jerrytigerxu/AVT-SOSO/blob/main/CIF-Automation/Test-Phase.md) (12/3-10)~~
   - ~~Designing the Web-to-lead form (content and style)~~
@@ -22,7 +22,7 @@
     - ~~Recorded simple demo for Morgan and Mimi~~
   - ~~Embedding of form into the website (hidden link) (12/19)~~
     - ~~Created private page on AVT site called "CIF Automation Test" with the embedded HTML Form~~
-- **PAC Phase** (12/23-1/10)
+- **PAC Phase** (12/23-1/31)
   - ~~Form refinement (data validation, default values, required fields, and styling)~~
   - ~~Have an email automatically be sent to CS that also has an attachment of the form results~~
   - Finalization 
