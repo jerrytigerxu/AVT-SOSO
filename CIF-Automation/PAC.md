@@ -4,7 +4,7 @@
 
 
 ### Finalization
-- (completed) Get approval of Johnny
+- ~~(completed) Get approval of Johnny~~
 - Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)
 - Embed the HTML into the AVT website and make it look nice
 - Plan out Streamlining (handing off and making training materials)
