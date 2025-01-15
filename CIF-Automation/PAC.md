@@ -5,8 +5,7 @@
 
 ### Finalization
 - ~~(completed) A. Get approval of Johnny~~
-- B. Plan out Streamlining (handing off and making training materials) (1/15)
-  - Considerations: have the original PDF workflow ready if that's what customers want to do (but don't promote it - always have the automated form be the default option)
+- ~~B. Plan out Streamlining (handing off and making training materials) (1/15)~~
 - C. More tweaking (1/16-17)
   - Let the marketing team and sales support team know that Johnny is okay with us moving forward
   - Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)
@@ -15,4 +14,6 @@
 - D. Deployment (1/20-24)
   - Change the recipient email address to CS
   - Do actual test runs
-  - Facilitate making this procedure the "new way"
+  - Create training materials (final video demonstration of the whole process, document for the procedure)
+  - Facilitate making this procedure the "new way" (train everyone involved)
+    - Have the original PDF workflow ready if that's what customers want to do (but don't promote it - always have the automated form be the default option)
