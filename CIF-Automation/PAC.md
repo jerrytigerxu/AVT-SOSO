@@ -8,9 +8,10 @@
 - ~~B. Plan out Streamlining (handing off and making training materials) (1/15)~~
 - C. More tweaking (1/16-17)
   - ~~Let the marketing team and sales support team know that Johnny is okay with us moving forward~~
-  - Embed the HTML into the AVT website and make it look nice
-  - Further refine the email template if necessary
+  - ~~Embed the HTML into the AVT website and make it look nice~~
   - Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)
+  - Make the form more intuitive and aesthetically pleasing (with inspiration)
+  - Further refine the email template if necessary
 - D. Deployment (1/20-24)
   - Change the recipient email address to CS
   - Do actual test runs
