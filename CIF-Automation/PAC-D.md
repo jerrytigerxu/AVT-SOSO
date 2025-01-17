@@ -8,15 +8,15 @@
 - JavaScript code
 
 ## Component Timeline (use codepen for interactive changes)
-- A) HTML restructuring (1/20)
+- 1) HTML restructuring (1/20)
   - Stepped structure (for progress bar)
   - Multi-column layout (2-3 columns)
-- B) CSS styling (1/21)
+- 2) CSS styling (1/21)
   - Visual appeal (visual separation and styled labels and buttons) -> using Stripe's sales contact form as inspiration
   - Spacing
   - Company branding
-- C) JavaScript functionality (1/22)
+- 3) JavaScript functionality (1/22)
   - Progress bar
   - Step navigation
   - Inline validation
-- D) Testing and refinement (1/23-24)
+- 4) Testing and refinement (1/23-24)
