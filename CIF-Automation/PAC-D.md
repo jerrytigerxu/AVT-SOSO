@@ -7,7 +7,7 @@
 - CSS stylesheet
 - JavaScript code
 
-## Component Timeline
+## Component Timeline (use codepen for interactive changes)
 - A) HTML restructuring (1/20)
   - Stepped structure (for progress bar)
   - Multi-column layout (2-3 columns)
