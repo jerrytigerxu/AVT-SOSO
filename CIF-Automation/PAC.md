@@ -10,7 +10,7 @@
   - ~~Let the marketing team and sales support team know that Johnny is okay with us moving forward~~
   - ~~Embed the HTML into the AVT website and make it look nice~~
   - ~~Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)~~
-- D. Enhancement (1/20-24)
+- [D. Enhancement](https://github.com/jerrytigerxu/AVT-SOSO/blob/main/CIF-Automation/PAC-D.md) (1/20-24)
 - E. Deployment (1/27-31)
   - Change the recipient email address to CS
   - Further refine the email template if necessary
