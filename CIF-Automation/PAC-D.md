@@ -8,8 +8,8 @@
 - JavaScript code
 
 ## Component Timeline (use codepen for interactive changes)
-- i) HTML restructuring (1/20)
-  - Stepped structure (for progress bar)
+- ~~i) HTML restructuring (1/20)~~
+  - ~~Stepped structure (for progress bar)~~
   - (decided to keep as one column but within a smaller container) ~~Multi-column layout (2-3 columns)~~
 - ii) CSS styling (1/21)
   - Visual appeal (visual separation and styled labels and buttons) -> using Stripe's sales contact form as inspiration
