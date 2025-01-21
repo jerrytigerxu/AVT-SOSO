@@ -14,7 +14,7 @@
 - ii) CSS styling (1/21)
   - Visual appeal (visual separation and styled labels and buttons) -> using Stripe's sales contact form as inspiration
   - Spacing
-  - Company branding
+  - Company branding (#ED1C24)
 - iii) JavaScript functionality (1/22)
   - Progress bar
   - Step navigation
