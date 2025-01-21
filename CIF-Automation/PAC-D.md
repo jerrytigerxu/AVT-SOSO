@@ -11,11 +11,11 @@
 - ~~i) HTML restructuring (1/20)~~
   - ~~Stepped structure (for progress bar)~~
   - (decided to keep as one column but within a smaller container) ~~Multi-column layout (2-3 columns)~~
-- ii) CSS styling (1/21)
-  - Visual appeal (visual separation and styled labels and buttons) -> using Stripe's sales contact form as inspiration
-  - Spacing
-  - Company branding (#ED1C24 | Roboto Regular or Arial font)
-- iii) JavaScript functionality (1/22)
+- ~~ii) CSS styling (1/21)~~
+  - ~~Visual appeal (visual separation and styled labels and buttons) -> using Stripe's sales contact form as inspiration~~
+  - ~~Spacing~~
+  - ~~Company branding (#ED1C24 | Roboto Regular or Arial font)~~
+- ~~iii) JavaScript functionality (1/22)~~
   - ~~Progress bar~~
   - ~~Inline validation~~
 - iv) Testing and refinement (1/23-24)
