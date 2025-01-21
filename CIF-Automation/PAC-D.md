@@ -14,9 +14,8 @@
 - ii) CSS styling (1/21)
   - Visual appeal (visual separation and styled labels and buttons) -> using Stripe's sales contact form as inspiration
   - Spacing
-  - Company branding (#ED1C24)
+  - Company branding (#ED1C24 | Roboto Regular or Arial font)
 - iii) JavaScript functionality (1/22)
-  - Progress bar
-  - Step navigation
-  - Inline validation
+  - ~~Progress bar~~
+  - ~~Inline validation~~
 - iv) Testing and refinement (1/23-24)
