@@ -18,4 +18,4 @@
 - ~~iii) JavaScript functionality (1/22)~~
   - ~~Progress bar~~
   - ~~Inline validation~~
-- iv) Testing and refinement (1/23-24)
+- ~~iv) Testing and refinement (1/23-24)~~
