@@ -15,8 +15,8 @@
   - A
     - Discuss with MM and with marketing team for final changes 
     - Do actual test runs
-  - B
-    - Create training materials (final video demonstration of the whole process, document for the procedure, how to change things like the email template)
     - Facilitate making this procedure the "new way" (train everyone involved)
       - Change the recipient email address to CS 
       - Have the original PDF workflow ready if that's what customers want to do (but don't promote it - always have the automated form be the default option)
+  - B
+    - Create training materials (final video demonstration of the whole process, document for the procedure, how to change things like the email template)
