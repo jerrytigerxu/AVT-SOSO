@@ -11,10 +11,12 @@
   - ~~Embed the HTML into the AVT website and make it look nice~~
   - ~~Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)~~
 - ~~[D. Enhancement](https://github.com/jerrytigerxu/AVT-SOSO/blob/main/CIF-Automation/PAC-D.md) (1/20-24)~~
-- E. Deployment (1/27-31)
-  - Change the recipient email address to CS
-  - Further refine the email template if necessary
-  - Do actual test runs
-  - Create training materials (final video demonstration of the whole process, document for the procedure, how to change things)
-  - Facilitate making this procedure the "new way" (train everyone involved)
-    - Have the original PDF workflow ready if that's what customers want to do (but don't promote it - always have the automated form be the default option)
+- E. Deployment (1/27-2/7) (A & B concurrent)
+  - A
+    - Discuss with MM and with marketing team for final changes 
+    - Do actual test runs
+  - B
+    - Create training materials (final video demonstration of the whole process, document for the procedure, how to change things like the email template)
+    - Facilitate making this procedure the "new way" (train everyone involved)
+      - Change the recipient email address to CS 
+      - Have the original PDF workflow ready if that's what customers want to do (but don't promote it - always have the automated form be the default option)
