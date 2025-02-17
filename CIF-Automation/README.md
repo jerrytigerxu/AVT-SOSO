@@ -22,7 +22,7 @@
     - ~~Recorded simple demo for Morgan and Mimi~~
   - ~~Embedding of form into the website (hidden link) (12/19)~~
     - ~~Created private page on AVT site called "CIF Automation Test" with the embedded HTML Form~~
-- [**PAC Phase**](https://github.com/jerrytigerxu/AVT-SOSO/blob/main/CIF-Automation/PAC.md) (12/23-1/31)
+- ~~[**PAC Phase**](https://github.com/jerrytigerxu/AVT-SOSO/blob/main/CIF-Automation/PAC.md) (12/23-1/31)~~
   
 
     
