@@ -11,7 +11,7 @@
   - ~~Embed the HTML into the AVT website and make it look nice~~
   - ~~Get more feedback on the form functionality and styling before fully implementing (and "deploying" for regular use)~~
 - ~~[D. Enhancement](https://github.com/jerrytigerxu/AVT-SOSO/blob/main/CIF-Automation/PAC-D.md) (1/20-24)~~
-- E. Deployment (1/27-2/7) (i & ii concurrent)
+- ~~E. Deployment (1/27-2/7) (i & ii concurrent)~~
   - i
     - ~~Discuss with MM and with marketing team for final changes~~ 
     - Do actual test runs
